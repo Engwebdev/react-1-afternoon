@@ -606,7 +606,7 @@ Now whenever a user clicks our `button` element our arrow function is called whi
 
 ```js
 assignEvenAndOdds(userInput) {
-
+  
 }
 ```
 
@@ -691,7 +691,7 @@ In this step, we'll build out the `FilterObject` component.
 * Remove the `<p>` element from the `return` of the `render` method.
 * Add the component outline to the `return` of the `render` method.
 * Add the following `className` props to the outline:
-  * `div` - className="puzzleBox filterObjectPB"
+  * `div` - className="puzzleBox" filterObjectPB"
   * The first `span` - className="puzzleText"
   * `input` - className="inputLine"
   * `button` - className="confirmationButton"
